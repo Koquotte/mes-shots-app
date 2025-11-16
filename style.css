@@ -47,7 +47,7 @@ body {
 .detail-view .people-count {
     font-size: 24px;
     font-weight: bold;
-    color: #ff9500; /* Orange */
+    color: #000000; /* Orange */
     text-align: center;
     margin-bottom: 10px;
 }
