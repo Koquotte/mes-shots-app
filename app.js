@@ -26,22 +26,22 @@ const recipesData = [
         ingredients: [
             { name: "Tequila", baseQuantity: 4.0, unit: "cl" },
             { name: "Sel", baseQuantity: 1.0, unit: "pincée" },
-            { name: "Tranche de citron vert", baseQuantity: 1.0, unit: "" }
+            { name: "Tranche de citron vert", baseQuantity: 1.0, unit: "cl" }
         ]
-    }
+    },
     {
-        name: "Orgasme"
+        name: "Orgasme",
         ingredients: [
-            { name: "Bayley's", baseQuantity: 2.0, unit:"cl"}
-            { name: "Tequila", baseQuantity: 2.0, unit:"cl"}
+            { name: "Bayley's", baseQuantity: 2.0, unit:"cl"},
+            { name: "Tequila", baseQuantity: 2.0, unit:"cl"},
             { name: "Liqueur de Menthe", baseQuantity: 1.0, unit:"cl"}
         ]
-    }
+    },
     {
-        name: "Madelaine"
+        name: "Madelaine",
         ingredients: [
-            { name: "Amaretto", baseQuantity: 1.0, unit:"cl"}
-            { name: "Triple sec", baseQuantity: 1.0, unit:"cl"}
+            { name: "Amaretto", baseQuantity: 1.0, unit:"cl"},
+            { name: "Triple sec", baseQuantity: 1.0, unit:"cl"},
             { name: "Jus d'ananas", baseQuantity: 1.0, unit:"cl"}
         ]
     }
