@@ -4,8 +4,8 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
-    background-color: #A020F0;
-    color: #333;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 #app {
@@ -22,7 +22,7 @@ body {
 
 /* Style pour chaque carte de recette dans la liste */
 .recipe-card {
-    background-color: #A020F0;
+    background-color: #f0a720;
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 15px;
@@ -34,7 +34,7 @@ body {
 
 /* Style pour la vue détaillée */
 .detail-view .slider-container {
-    background-color: #A020F0;
+    background-color: #cbbbd4;
     padding: 20px;
     border-radius: 12px;
     margin: 20px 0;
