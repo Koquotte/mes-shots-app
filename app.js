@@ -29,6 +29,22 @@ const recipesData = [
             { name: "Tranche de citron vert", baseQuantity: 1.0, unit: "" }
         ]
     }
+    {
+        name: "Orgasme"
+        ingredients: [
+            { name: "Bayley's", baseQuantity: 2.0, unit:"cl"}
+            { name: "Tequila", baseQuantity: 2.0, unit:"cl"}
+            { name: "Liqueur de Menthe", baseQuantity: 1.0, unit:"cl"}
+        ]
+    }
+    {
+        name: "Madelaine"
+        ingredients: [
+            { name: "Amaretto", baseQuantity: 1.0, unit:"cl"}
+            { name: "Triple sec", baseQuantity: 1.0, unit:"cl"}
+            { name: "Jus d'ananas", baseQuantity: 1.0, unit:"cl"}
+        ]
+    }
 ];
 
 // Fonction pour afficher la liste principale des recettes
