@@ -36,13 +36,84 @@ const recipesData = [
             { name: "Tequila", baseQuantity: 2.0, unit:"cl"},
             { name: "Liqueur de Menthe", baseQuantity: 1.0, unit:"cl"}
         ]
-    },
+    }, 
     {
-        name: "Madelaine",
+        name: "Madeleine",
         ingredients: [
             { name: "Amaretto", baseQuantity: 1.0, unit:"cl"},
             { name: "Triple sec", baseQuantity: 1.0, unit:"cl"},
             { name: "Jus d'ananas", baseQuantity: 1.0, unit:"cl"}
+        ]
+    },
+    {
+        name: "Buttery Nipple",
+        ingredients: [
+            { name: "Schnaps au caramel", baseQuantity: 2.0, unit:"cl"},
+            { name: "Crème irlandaise", baseQuantity: 2.0, unit:"cl"}
+        ]
+    },
+    {
+        name: "Melon Ball",
+        ingredients: [
+            { name: "Liqueur de melon", baseQuantity: 1.0, unit:"cl"},
+            { name: "Jus d'ananas", baseQuantity: 1.0, unit:"cl"},
+            { name: "Vodka", baseQuantity: 1.0, unit:"cl"}
+        ]
+    },
+    {
+        name: "Washington Apple",
+        ingredients: [
+            { name: "Whyskey Canadien", baseQuantity: 3.0, unit:"cl"},
+            { name: "Liqueur de pomme", baseQuantity: 3.0, unit:"cl"},
+            { name: "Jus de cramberry", baseQuantity: 3.0, unit:"cl"}
+        ]
+    },
+    {
+        name: "Pineapple Upside-Down Cake",
+        ingredients: [
+            { name: "Vodka à la vanille", baseQuantity: 3.0, unit:"cl"},
+            { name: "Jus d'ananasa", baseQuantity: 3.0, unit:"cl"},
+            { name: "Grenadine", baseQuantity: 0.7, unit:"cl"}
+        ]
+    },
+    {
+        name: "Cappuccinotini",
+        ingredients: [
+            { name: "Van Gogh Double espresso", baseQuantity: 1.5, unit:"cl"},
+            { name: "Van Gogh Vanilla", baseQuantity: 1.5, unit:"cl"},
+            { name: "Liqueur de chocolat", baseQuantity: 1.5, unit:"cl"}
+        ]
+    },
+    {
+        name: "Peach Tart",
+        ingredients: [
+            { name: "Liqueur de pêche", baseQuantity: 6.0, unit:"cl"},
+            { name: "Jus de citron vert", baseQuantity: 1.5, unit:"cl"}
+        ]
+    },
+    {
+        name: "Chocolate Cake",
+        ingredients: [
+            { name: "Vodka à la vanille", baseQuantity: 2.0, unit:"cl"},
+            { name: "Frangelico", baseQuantity: 1.5, unit:"cl"},
+            { name: "Liqueur de chocolat", baseQuantity: 1.5, unit:"cl"}
+        ]
+    },
+    {
+        name: "Woo Woo",
+        ingredients: [
+            { name: "Liqueur de pêche", baseQuantity: 1.5, unit:"cl"},
+            { name: "Vodka", baseQuantity: 1.5, unit:"cl"},
+            { name: "Jus de Cramberry", baseQuantity: 3.0, unit:"cl"}
+        ]
+    },
+    {
+        name: "Martini crème à la pistache",
+        ingredients: [
+            { name: "Liqueur de pistache", baseQuantity: 3.0, unit:"cl"},
+            { name: "Rhum Vanille", baseQuantity: 4.5, unit: "cl"},
+            { name:"Liqueur de Curaçao Triple Sec", baseQuantity: 1.5, unit:"cl"},
+            { name: "Crème liquide légère", baseQuantity: 6.0, unit:"cl"}
         ]
     }
 ];
