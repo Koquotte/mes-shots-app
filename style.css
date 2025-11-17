@@ -47,7 +47,7 @@ body {
 .detail-view .people-count {
     font-size: 24px;
     font-weight: bold;
-    color: #ff9500; /* Orange */
+    color: #000000; 
     text-align: center;
     margin-bottom: 10px;
 }
@@ -72,12 +72,12 @@ body {
 
 .ingredients-list .ingredient-quantity {
     font-weight: bold;
-    color: #34c759; /* Vert */
+    color: #34c759; 
 }
 
 /* Bouton de retour */
 .back-button {
-    background-color: #007aff; /* Bleu */
+    background-color: #007aff; 
     color: white;
     border: none;
     padding: 10px 15px;
