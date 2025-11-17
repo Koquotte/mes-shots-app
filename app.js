@@ -119,7 +119,7 @@ const recipesData = [
     {
         name: "Le cercueil",
         ingredients: [
-            {name: "Mélange de tous les alcools présents sur la table"}
+            {name: "Mélange de tous les alcools présents sur la table", baseQuantity: 4.0, unit: "cl"}
         ]
     }
 ];
