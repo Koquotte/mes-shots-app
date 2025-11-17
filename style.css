@@ -4,7 +4,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
-    background-color: #f4edde;
+    background-color: #000000;
     color: #000000;
 }
 
@@ -17,13 +17,12 @@ body {
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
-    color: #ffffff;
-    text-align: center;
+    color: #000;
 }
 
 /* Style pour chaque carte de recette dans la liste */
 .recipe-card {
-    background-color: #eb9143;
+    background-color: #f0a720;
     padding: 20px;
     border-radius: 12px;
     margin-bottom: 15px;
@@ -35,7 +34,7 @@ body {
 
 /* Style pour la vue détaillée */
 .detail-view .slider-container {
-    background-color: #a781bd;
+    background-color: #cbbbd4;
     padding: 20px;
     border-radius: 12px;
     margin: 20px 0;
@@ -48,7 +47,7 @@ body {
 .detail-view .people-count {
     font-size: 24px;
     font-weight: bold;
-    color: #000000; /* Orange */
+    color: #ff9500; /* Orange */
     text-align: center;
     margin-bottom: 10px;
 }

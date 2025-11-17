@@ -115,6 +115,12 @@ const recipesData = [
             { name:"Liqueur de Curaçao Triple Sec", baseQuantity: 1.5, unit:"cl"},
             { name: "Crème liquide légère", baseQuantity: 6.0, unit:"cl"}
         ]
+    },
+    {
+        name: "Le cercueil",
+        ingredients: [
+            {name: "Mélange de tous les alcools présents sur la table"}
+        ]
     }
 ];
 
