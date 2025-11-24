@@ -1,0 +1,167 @@
+/* style.css */
+
+/* Style de base pour toute l'application */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    background-color: #f4edde; /* Votre couleur de fond */
+    color: #000000;
+}
+
+#app {
+    padding: 15px;
+}
+
+/* Style pour l'en-tête */
+.header {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
+    text-align: center; /* J'ai ajouté le centrage que nous avions discuté */
+}
+
+/* --- NOUVEAU : Styles pour les filtres --- */
+.filters-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 25px;
+    justify-content: center; /* Centre les boutons */
+}
+
+.filter-btn {
+    background-color: #cbbbd4; /* Votre couleur violette */
+    color: #000;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.filter-btn.active {
+    background-color: #f0a720; /* Votre couleur jaune/orange */
+    color: #000;
+}
+
+.no-results {
+    text-align: center;
+    color: #8e8e93;
+    padding: 20px;
+}
+
+/* Style pour chaque carte de recette dans la liste */
+.recipe-card {
+    background-color: #f0a720; /* Votre couleur jaune/orange */
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative; /* Important pour positionner l'étoile */
+    transition: transform 0.2s;
+}
+
+.recipe-card:active {
+    transform: scale(0.98);
+}
+
+/* --- NOUVEAU : Style pour l'étoile de favori --- */
+.favorite-star {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.2); /* Étoile vide, légèrement visible */
+    cursor: pointer;
+}
+
+.favorite-star.active {
+    color: #ffcc00; /* Jaune doré pour le favori */
+}
+
+/* Style pour la vue détaillée */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.favorite-star-detail {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.favorite-star-detail.active {
+    color: #ffcc00;
+}
+
+.detail-view .slider-container {
+    background-color: #cbbbd4; /* Votre couleur violette */
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+}
+
+.detail-view h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.detail-view .people-count {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.slider {
+    width: 100%;
+    cursor: pointer;
+}
+
+.ingredients-list {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 0 20px;
+}
+
+.ingredients-list .ingredient {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px 0;
+    border-bottom: 1px solid #f0f0f7;
+}
+
+.ingredients-list .ingredient:last-child {
+    border-bottom: none;
+}
+
+.ingredients-list .ingredient-name {
+    font-weight: 500;
+}
+
+.ingredients-list .ingredient-quantity {
+    font-weight: bold;
+    color: #34c759; 
+}
+
+/* Bouton de retour */
+.back-button {
+    background-color: #007aff; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
